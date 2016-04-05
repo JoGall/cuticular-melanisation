@@ -1,8 +1,7 @@
-# Cuticular melanisation
-#### Quantifies the brightness of insect cuticle to estimate the degree of cuticular melanisation.
+# Quantify the brightness of insect cuticle to estimate cuticular melanisation.
 
 ### 1) Introduction
-The insect cuticle provides both a mechanical and physiochemical barrier against pathogens. The darkness of the cuticle (determined by its level of melanisation and/or sclerotisation) is often positively correlated with the pathogenic resistance of the host. This script automates the quantification of cuticle darkness from previously captured images, calculating the mean brightness of a foreground object (in BGR and HSV colour space) as well as its length and width. Results are outputted to a .text file, and a sample image mask (`mask-FILENAME.png`) outputted for each input.
+The insect cuticle provides both a mechanical and physiochemical barrier against pathogens. The darkness of the cuticle (determined by its level of melanisation and/or sclerotisation) is often positively correlated with the pathogenic resistance of the host. This script automates the quantification of cuticle darkness from previously captured images, calculating the mean brightness of a foreground object (in BGR and HSV colour space) as well as its length and width. Results are outputted to a .text file, and a sample image mask (`mask-FILENAME.png`) is returned for each input.
 
 <img src="https://cloud.githubusercontent.com/assets/17113779/14171680/13bc20c8-f72c-11e5-8445-416986e6260a.jpg" width="400">
 <img src="https://cloud.githubusercontent.com/assets/17113779/14171681/13ff3e94-f72c-11e5-8c8f-7f395b562221.jpg" width="400">
